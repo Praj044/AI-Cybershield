@@ -5,6 +5,9 @@
 AI CyberShield is a **hybrid AI-based cybersecurity platform** that detects, analyzes, and prevents cyber threats such as phishing attacks, malicious URLs, and weak passwords using Machine Learning, NLP, Generative AI, and threat intelligence APIs.
 
 ---
+## 🎥 Demo
+
+🔗 [Click to Watch Demo Video](https://drive.google.com/file/d/1WKN7hKyOXHBFVC2OlNT4OnJekIhvUHKs/view?usp=sharing)
 
 ## 📌 Problem Statement
 
