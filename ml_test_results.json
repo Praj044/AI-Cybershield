@@ -1,0 +1,117 @@
+{
+  "dataset": {
+    "total": 2000,
+    "phishing": 1000,
+    "safe": 1000
+  },
+  "cv_accuracy": {
+    "per_fold": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mean": 1.0,
+    "std": 0.0
+  },
+  "smoke_tests": [
+    {
+      "expected": "PHISHING",
+      "correct": true,
+      "score": 97,
+      "label": "Phishing",
+      "top_feats": [
+        "click",
+        "account",
+        "your account"
+      ],
+      "email_snippet": "Your account has been suspended click here immediately to ve"
+    },
+    {
+      "expected": "SAFE",
+      "correct": true,
+      "score": 3,
+      "label": "Likely Safe",
+      "top_feats": [
+        "you have",
+        "have",
+        "char:tion"
+      ],
+      "email_snippet": "Hi team please find the quarterly report attached let me kno"
+    },
+    {
+      "expected": "PHISHING",
+      "correct": true,
+      "score": 92,
+      "label": "Phishing",
+      "top_feats": [
+        "card",
+        "congratulations",
+        "claim your"
+      ],
+      "email_snippet": "Congratulations you have won a 1000 dollar gift card claim y"
+    },
+    {
+      "expected": "SAFE",
+      "correct": true,
+      "score": 9,
+      "label": "Likely Safe",
+      "top_feats": [
+        "in",
+        "char:in ",
+        "is"
+      ],
+      "email_snippet": "Just a reminder the team lunch is on Thursday at noon in the"
+    },
+    {
+      "expected": "PHISHING",
+      "correct": true,
+      "score": 86,
+      "label": "Phishing",
+      "top_feats": [
+        "account",
+        "information",
+        "confirm"
+      ],
+      "email_snippet": "Dear user your PayPal account is limited confirm your inform"
+    },
+    {
+      "expected": "SAFE",
+      "correct": false,
+      "score": 68,
+      "label": "Likely Phishing",
+      "top_feats": [
+        "in",
+        "to",
+        "new"
+      ],
+      "email_snippet": "Your flight to New York on March 20th is confirmed please ch"
+    },
+    {
+      "expected": "PHISHING",
+      "correct": true,
+      "score": 97,
+      "label": "Phishing",
+      "top_feats": [
+        "click",
+        "account",
+        "click here"
+      ],
+      "email_snippet": "URGENT your Microsoft account password will expire click her"
+    },
+    {
+      "expected": "SAFE",
+      "correct": true,
+      "score": 6,
+      "label": "Likely Safe",
+      "top_feats": [
+        "to",
+        "char:eli",
+        "char:to "
+      ],
+      "email_snippet": "Good morning I wanted to follow up on our meeting yesterday "
+    }
+  ],
+  "all_passed": false
+}
