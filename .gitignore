@@ -12,4 +12,11 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# Ignore dataset folder
 dataset_extracted/
+
+
+tempCodeRunnerFile.*
+test_*.py
+test_*.txt
+*.log
