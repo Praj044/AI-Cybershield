@@ -1,103 +1,104 @@
 # 🛡️ AI CyberShield
 
-### 🚀 AI-Powered Real-Time Cybersecurity System
+### 🚀 AI-Powered Real-Time Cybersecurity Platform
 
-AI CyberShield is a **hybrid AI-based cybersecurity platform** that detects, analyzes, and prevents cyber threats such as phishing attacks, malicious URLs, and weak passwords using Machine Learning, NLP, Generative AI, and threat intelligence APIs.
+AI CyberShield is a **hybrid AI-driven cybersecurity system** that detects, analyzes, and prevents modern cyber threats such as phishing attacks, malicious URLs, and weak credentials — in real time.
 
 ---
-## 🎥 Demo
 
-🔗 [Click to Watch Demo Video](https://drive.google.com/file/d/1WKN7hKyOXHBFVC2OlNT4OnJekIhvUHKs/view?usp=sharing)
+## 🌐 Live Demo
+
+🔗 **Live App:** https://ai-cybershield-h4a4h5e9ghdmb2ck.centralindia-01.azurewebsites.net/
+🎥 **Demo Video:** https://drive.google.com/file/d/1WKN7hKyOXHBFVC2OlNT4OnJekIhvUHKs/view?usp=sharing
+
+---
 
 ## 📌 Problem Statement
 
-Cyber attacks like phishing, malicious links, and credential theft are increasing rapidly.
-Traditional security systems are often **reactive, slow, and limited to single-layer detection**.
+Cyber threats like phishing, malicious links, and credential theft are increasing exponentially.
+Most existing systems are:
 
-👉 There is a need for a **real-time, intelligent, and multi-layer cybersecurity solution**.
+* ❌ Reactive (detect after damage)
+* ❌ Single-layered
+* ❌ Slow and rule-limited
+
+👉 There is a need for a **real-time, intelligent, multi-layer defense system**.
 
 ---
 
 ## 💡 Solution
 
-AI CyberShield provides a **multi-layer AI defense system** that:
+AI CyberShield delivers a **multi-layer AI security architecture** that:
 
-* 🔍 Detects phishing emails using ML models
-* 🧠 Analyzes social engineering patterns using NLP
-* 🤖 Uses Generative AI for contextual reasoning
-* 🔗 Scans URLs using global threat intelligence APIs
-* 🔐 Evaluates password strength using probabilistic models
-* 📊 Generates a unified cybersecurity risk score (0–100)
+* 🔍 Detects phishing emails using Machine Learning
+* 🧠 Analyzes social engineering patterns via NLP
+* 🤖 Uses Generative AI for contextual threat reasoning
+* 🔗 Validates URLs using global threat intelligence APIs
+* 🔐 Evaluates password strength probabilistically
+* 📊 Generates a unified **risk score (0–100)**
 
 ---
 
-## 🧠 AI Architecture
+## 🧠 AI Architecture (Hybrid Intelligence)
 
-AI CyberShield uses a **Hybrid AI Approach**:
-
-* **Supervised Machine Learning** → Phishing detection (TF-IDF + Logistic Regression)
-* **Rule-Based NLP** → Behavioral & linguistic threat analysis
-* **Generative AI (Gemini API)** → Context-aware reasoning
-* **Threat Intelligence APIs** → Real-world security validation
+| Layer        | Technology                   | Purpose               |
+| ------------ | ---------------------------- | --------------------- |
+| ML Layer     | TF-IDF + Logistic Regression | Phishing detection    |
+| NLP Layer    | Rule-based engine            | Behavioral analysis   |
+| GenAI Layer  | Gemini API                   | Contextual reasoning  |
+| Threat Layer | VirusTotal + URLhaus         | Real-world validation |
 
 ---
 
 ## ⚡ Key Features
 
 * ✅ Real-time threat detection
-* ✅ Multi-layer security analysis
-* ✅ Parallel processing using ThreadPoolExecutor
-* ✅ AI-powered phishing detection
-* ✅ URL safety analysis (VirusTotal + URLhaus)
-* ✅ Password strength evaluation (zxcvbn)
-* ✅ Unified risk scoring engine
+* ✅ Multi-layer AI analysis
+* ✅ Parallel execution (ThreadPoolExecutor)
+* ✅ URL scanning via threat intelligence APIs
+* ✅ Password strength analysis (zxcvbn)
+* ✅ Unified cybersecurity risk scoring
 * ✅ Interactive Streamlit dashboard
 
 ---
 
-## 🏗️ Architecture Overview
+## 🏗️ System Architecture
 
-* **Frontend:** Streamlit Dashboard
-* **Processing:** Parallel execution (5 workers)
-* **Core Modules:** ML, NLP, AI Engine, URL Analyzer, Password Checker
-* **Output:** Risk Score + Security Insights
+```
+User Input → Parallel Processing Engine → AI Modules → Risk Scoring → Dashboard Output
+```
 
 ---
 
 ## ⚙️ Tech Stack
 
-### 🖥️ Language
+### 🖥️ Core
 
-* Python 3.x
-
-### 🤖 Machine Learning & AI
-
-* Scikit-learn (TF-IDF, Logistic Regression, FeatureUnion)
-* Google Gemini API (gemini-2.0-flash / gemini-1.5-flash)
-
-### 🌐 Backend & Framework
-
+* Python 3.10
 * Streamlit
-* ThreadPoolExecutor
 
-### 📊 Data Processing & Security
+### 🤖 AI / ML
+
+* Scikit-learn (TF-IDF, Logistic Regression)
+* Google Gemini API
+
+### 🔐 Security & Analysis
 
 * zxcvbn
-* Custom NLP Engine
 * URLhaus API
 * VirusTotal API
-* validators
+* Custom NLP Engine
 
-### 🔐 Utilities
+### ⚡ Backend
 
-* python-dotenv
-* requests
+* ThreadPoolExecutor
+* requests, dotenv
 
 ---
 
 ## 📁 Project Structure
 
-```bash
+```
 AI-CyberShield/
 │
 ├── app.py
@@ -114,91 +115,73 @@ AI-CyberShield/
 
 ---
 
-## ▶️ How to Run
-
-### 1. Clone Repository
+## ▶️ Run Locally
 
 ```bash
 git clone https://github.com/Praj044/AI-Cybershield.git
 cd AI-Cybershield
-```
 
-### 2. Create Virtual Environment
-
-```bash
 python -m venv .venv
-.venv\Scripts\activate   # Windows
-```
+.venv\Scripts\activate
 
-### 3. Install Dependencies
-
-```bash
 pip install -r requirements.txt
-```
 
-### 4. Setup Environment Variables
-
-Create `.env` file:
-
-```env
-GEMINI_API_KEY=your_key_here
-VT_API_KEY=your_key_here
-```
-
-### 5. Run Application
-
-```bash
+# Add API keys in .env
 streamlit run app.py
 ```
 
 ---
 
-## 🔐 Security
+## 🔐 Security Practices
 
-* API keys are stored securely using **environment variables**
-* `.env` file is excluded via `.gitignore`
-* No sensitive credentials are exposed in the repository
+* 🔒 API keys stored using environment variables
+* 🚫 `.env` excluded via `.gitignore`
+* ✅ No sensitive data exposed
 
 ---
 
 ## 📊 Use Cases
 
 * 🏦 Banking & Financial Security
-* 🏢 Enterprise Cybersecurity
+* 🏢 Enterprise Threat Detection
 * 🌐 Web Application Security
-* 👤 Personal Security Tools
+* 👤 Personal Cyber Safety
 
 ---
 
-## ⚡ Innovation / USP
+## ⚡ Unique Selling Points
 
 * 🔥 Hybrid AI (ML + NLP + Generative AI)
-* 🔥 Multi-layer cybersecurity architecture
-* 🔥 Parallel processing for real-time performance
+* 🔥 Multi-layer threat detection
+* 🔥 Real-time parallel processing
 * 🔥 Unified risk scoring system
-* 🔥 Scalable and modular design
+* 🔥 Cloud-deployed production app
 
 ---
 
-## 🔮 Future Scope
+## 🔮 Future Enhancements
 
-* Integration with IoT security
-* Advanced deep learning models
-* Real-time monitoring dashboard
-* Cloud deployment (AWS / GCP)
+* 📡 IoT security integration
+* 🧠 Deep learning-based detection
+* 📊 Real-time monitoring dashboard
+* ☁️ Multi-cloud deployment (AWS / GCP)
 
 ---
 
-## 👥 Team
+## 👨‍💻 Team
 
-**Prajjwal Gupta**
-**Aarohi Patel**
-**Alok Kumar**
+* Prajjwal Gupta
+* Aarohi Patel
+* Alok Kumar
 
 ---
 
 ## ⭐ Support
 
-If you like this project, consider giving it a ⭐ on GitHub!
+If you found this project useful:
+
+👉 Star ⭐ the repo
+👉 Share 🚀
+👉 Contribute 🤝
 
 ---
